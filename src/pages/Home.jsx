@@ -1,12 +1,15 @@
-import React from 'react'
-
+// Home.js
+import React from "react";
+import MainComponent from "../components/MainComponent";
+import MovieCarousel from "../components/MovieCarousel";
 
 const Home = () => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
+      <MainComponent />
+      <MovieCarousel />
+    </div>
+  );
+};
 
-    </div>        
-  )
-}
-
-export default Home
+export default Home;
