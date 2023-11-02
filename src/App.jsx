@@ -1,16 +1,12 @@
-import './App.css'
-import Home from '../src/pages/Home'
-import axios from 'axios';
-import YouTube from 'react-youtube';
+import Home from "../src/pages/Home";
+
 
 function App() {
-
-
   return (
     <>
-    <Home />
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
